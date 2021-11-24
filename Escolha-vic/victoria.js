@@ -18,3 +18,4 @@ function escolhavic2(escolha){
         alert("Escolha uma opção valida !!!")
     }
 }
+// vic

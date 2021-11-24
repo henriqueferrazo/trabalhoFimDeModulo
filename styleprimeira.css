@@ -1,0 +1,90 @@
+body{
+    background-image: url(./imagens/quinta.jpg);
+    background-repeat: repeat-y;
+    background-size: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.80);
+    font-size: 100px;
+    color:yellow;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin: 0;
+    border: 0%;
+    box-sizing: border-box;
+}
+.primeiro-paragrafo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.80);
+    font-size: 25px;
+    color: yellow;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin: 10%;
+    border: 0%;
+    box-sizing: border-box;
+    font-family: 'DM Mono', monospace;
+}
+.primeiro-paragrafo img{
+    margin-left: 25%;
+    height: 50%;
+    width: 50%;
+
+
+}
+
+
+.segundo-paragrafo{
+    display: block;
+    background-color:rgba(0, 0, 0, 0.80);
+    font-size: 25px;
+    color: yellow;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin: 10%;
+    font-family: 'DM Mono', monospace;
+}
+.personagens{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.personagem-gui img{
+    display: flex;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.80);
+    height: 320px;
+    width: 288px;
+    border-radius: 0.5em;
+    margin-right: 10px;
+    border: 2px solid yellow;
+} 
+
+.personagem-gus img{
+    display: flex;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.80);
+    height: 320px;
+    width: 288px;
+    border-radius: 0.5em;
+    margin:right 10px left 10px;
+    border: 2px solid yellow;
+}
+.personagem-victoria img{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.80);
+    height: 320px;
+    width: 288px;
+    border-radius: 0.5em;
+    margin-left: 10px;
+    border: 2px solid yellow;
+}

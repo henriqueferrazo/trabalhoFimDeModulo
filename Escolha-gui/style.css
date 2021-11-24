@@ -1,0 +1,45 @@
+body{
+    background-image: url(./imagens/quinta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.80);
+    font-size: 40px;
+    color: yellow;
+    padding: 1em;
+    border-radius: 0.5em;
+    
+
+}
+.guilherme img{
+    display: flex;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.80);
+    height: 369px;
+    width: 268px;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+.botao{
+    background-color:rgba(0, 0, 0, 1.0);
+    color: yellow;
+    padding: 10px 8px;
+    width: 298px;
+    height: 82px;
+    border:1px solid yellow;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    font-size: 50px;
+}
+.botao:hover{
+    background-color: yellow;
+    color: black;
+
+}
